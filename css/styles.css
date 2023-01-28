@@ -301,6 +301,21 @@ header .container {
     border-radius: 0px 0px 4px 4px;
 }
 
+/*--------MAIN-CUSTUMERS--------*/
+
+.custumers {
+    padding: 130px 0px 120px;
+}
+
+.custumers-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-title-color);
+}
+
 /*--------PORTFOLIO--------*/
 
 .portfolio {
