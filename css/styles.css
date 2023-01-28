@@ -143,9 +143,12 @@ header .container {
 /*--------MAIN-HERO--------*/
 
 .hero {
-    background: var(--primary-title-color);
-    display: block;
-    align-items: center;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 188px 0px;
 }
 
