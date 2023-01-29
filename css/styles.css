@@ -526,8 +526,6 @@ header .container {
 
 .footer-soc-list {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .footer-links-item {
