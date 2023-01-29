@@ -6,6 +6,7 @@
     --background-color-2: #4D5AE5;
     --light-gray-color: #F4F4FD;
     --other-white-color: #E7E9FC;
+    --logo-color: #8E8F99;
 }
 
 p,
@@ -332,6 +333,7 @@ header .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    fill: var(--light-gray-color);
     background-color: var(--background-color-2) ;
     border-radius: 50%;
 }
@@ -343,6 +345,7 @@ header .container {
 .team-soc-link:hover,
 .team-soc-link:focus {
     background-color: var(--background-color-1);
+    fill: var(--light-gray-color);
 }
 
 /*--------MAIN-CUSTUMERS--------*/
@@ -358,6 +361,42 @@ header .container {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-title-color);
+    margin-bottom: 72px;
+}
+
+.custumers-list {
+    display: flex;
+    background-color: var(--primary-white-color);
+}
+
+.custumers-items {
+    width: 168px;
+    height: 88px;
+}
+
+.custumers-group-logo {
+    width: 168px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--logo-color);
+    border-radius: 4px;
+    fill:   var(--logo-color);
+}
+
+.custumers-group-logo:hover,
+.custumers-group-logo:focus {
+    border-color: var(--background-color-1);
+}
+
+.custumers-group-logo:hover .custumers-icon,
+.custumers-group-logo:focus .custumers-icon {
+    fill: var(--background-color-1);
+}
+
+.custumers-items:not(:last-child) {
+    margin-right: 24px;
 }
 
 /*--------PORTFOLIO--------*/
