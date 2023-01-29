@@ -349,13 +349,13 @@ header .container {
     fill: var(--light-gray-color);
 }
 
-/*--------MAIN-CUSTUMERS--------*/
+/*--------MAIN-CUSTOMERS--------*/
 
-.custumers {
+.customers {
     padding: 130px 0px 120px;
 }
 
-.custumers-title {
+.customers-title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -365,17 +365,17 @@ header .container {
     margin-bottom: 72px;
 }
 
-.custumers-list {
+.customers-list {
     display: flex;
     background-color: var(--primary-white-color);
 }
 
-.custumers-items {
+.customers-items {
     width: 168px;
     height: 88px;
 }
 
-.custumers-group-logo {
+.customers-group-logo {
     width: 168px;
     height: 88px;
     display: flex;
@@ -386,17 +386,17 @@ header .container {
     fill:   var(--logo-color);
 }
 
-.custumers-group-logo:hover,
-.custumers-group-logo:focus {
+.customers-group-logo:hover,
+.customers-group-logo:focus {
     border-color: var(--background-color-1);
 }
 
-.custumers-group-logo:hover .custumers-icon,
-.custumers-group-logo:focus .custumers-icon {
+.customers-group-logo:hover .customers-icon,
+.customers-group-logo:focus .customers-icon {
     fill: var(--background-color-1);
 }
 
-.custumers-items:not(:last-child) {
+.customers-items:not(:last-child) {
     margin-right: 24px;
 }
 
