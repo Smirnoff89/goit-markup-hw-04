@@ -228,6 +228,16 @@ header .container {
     color: var(--primary-text-color);
 }
 
+.benefits-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-gray-color);
+    height: 112px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
 /*--------MAIN-OUR-WORK--------*/
 
 .our-work {
